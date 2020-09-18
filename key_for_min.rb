@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       value_to_compare = value[1]
       key_to_store = value[0]
     end
-    return key_to_store
   end
+  return key_to_store
 end
