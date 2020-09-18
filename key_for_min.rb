@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   new_arr = name_hash.to_a
   value_to_compare = 100000000
-  key_to_store = {}
+  key_to_store = nil
   new_arr.each do |value|
     if value[1] <= value_to_compare
       value_to_compare = value[1]
