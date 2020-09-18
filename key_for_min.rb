@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if value <= value_to_compare
       value_to_compare = value
       key_to_store = key
-    else name_hash.count == 0
+    else name_hash.length == 0
       nil
     end
   end
